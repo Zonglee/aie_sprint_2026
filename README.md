@@ -1,18 +1,21 @@
-#  AIE Sprint
-## 1. Objective
-I’ve reframed my year: instead of a 365-day marathon, I see it as **10 focused sessions of 36 days**. This perspective shift turns time into a tool for mastery rather than a deadline.
+## 1. The Philosophy
 
-My current mission? Dedicating these sessions to evolving into an **AI Engineer**. This repository is the living documentation of that journey—housing every line of code, every architectural insight, and every "aha!" moment I encounter.
+Instead of a 365-day marathon, I’ve structured my journey into **10 focused sessions of 36 days**. Each session is designed to transform a specific AI domain from "theoretical knowledge" into "production-ready engineering."
 
-It’s raw, and it’s iterative. 
+This repository serves as a living laboratory for my evolution as an **AI Engineer**—documenting every architectural decision, performance optimization, and "aha!" moment.
 
-## 2. Progress
+## 2. Tech Stack & Toolkit
 
+- **Languages:** Python (Asyncio, Pydantic), Swift (iOS integration).
+- **Engineering:** Poetry (Dependency Management), Docker, FastAPI.
+- **AI Orchestration:** LangChain, LlamaIndex, Agentic Workflows.
+- **Data & Infra:** Vector Databases (ChromaDB/Pinecone), SQL, ETL Pipelines.
 
-| Stage                                         | Session | Day                                                        | Key Area                                          | Key Deliverable                                                                                                                                                               |    Progress    |
-| --------------------------------------------- | :-----: | ---------------------------------------------------------- | ------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------: |
-| 1<br>**Engineering Foundation**               |    1    | 1~10                                                       | Asynchronous Python and Environmental Engineering | 1. Environment Isolation and Dependency Certainty (Poetry)<br>2. Configuration Management and Security Barrier<br>3. High Concurrency Base<br>4. Logging & Exception Handling | 🏃 In progress |
-|                                               |    2    | 11~20                                                      | FastAPI                                           |                                                                                                                                                                               |  📅 Upcoming   |
-|                                               |    3    | add 10 more days...<br><br>Why would I create this column? | Containerization and Deployment Fundamentals      |                                                                                                                                                                               |  📅 Upcoming   |
-| 2 <br>**RAG: Retrieval-Augmented Generation** |    4    |                                                            |                                                   |                                                                                                                                                                               |  📅 Upcoming   |
-|                                               |    5    | ...                                                        |                                                   |                                                                                                                                                                               |                |
+## 3. Roadmap and Process
+| **Stage**                     | **Session** | **Key Area**              | **Key Deliverables (The "Proof of Work")**                                                                                                                                                                                                                | **Status**            |
+| ----------------------------- | ----------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| **1: Engineering Foundation** | 1           | **Async Python & DevOps** | • **Environment Isolation:** Zero-conflict setup with Poetry.<br><br>  <br><br>• **Concurrent Base:** Async API wrappers for high-throughput LLM calls.<br><br>  <br><br>• **Production Standards:** Centralized logging & structured exception handling. | 🏃 Session 1<br>(0/4) |
+|                               | 2           | **FastAPI Deep Dive**     | • **Schema-First Design:** Strict data validation with Pydantic.<br><br>  <br><br>• **Service Architecture:** Modular routing and middleware implementation.                                                                                              | 📅 Upcoming           |
+|                               | 3           | **Containerization**      | • **Docker-Compose Ops:** Full-stack local orchestration.<br><br>  <br><br>• **Cloud-Ready Specs:** Multi-stage builds and environment security.                                                                                                          | 📅 Upcoming           |
+| **2: Advanced RAG**           | 4-6         | **Data Augmentation**     | • **Hybrid Search:** Combining BM25 with Vector embeddings.<br><br>  <br><br>• **Evaluation Ops:** RAGAS metrics & automated LLM-as-a-judge pipelines.                                                                                                    | 📅 Upcoming           |
+| **3: Agentic AI**             | 7-10        | **Autonomous Systems**    | • **Function Calling:** Tool-use for real-time data retrieval (SQL/API).<br><br>  <br><br>• **Multi-Agent Orchestration:** Complex state management with LangGraph.                                                                                       | 📅 Upcoming           |
