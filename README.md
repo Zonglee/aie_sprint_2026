@@ -1,3 +1,4 @@
+# 🦸 AI Engineering Sprinter 🏃
 ## 1. The Philosophy
 
 Instead of a 365-day marathon, I’ve structured my journey into **10 focused sessions of 36 days**. Each session is designed to transform a specific AI domain from "theoretical knowledge" into "production-ready engineering."
